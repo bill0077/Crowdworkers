@@ -1,0 +1,21 @@
+.wrapper_hit-text {
+    display: flex;
+    align-items: center;
+}
+
+.hit-text {
+    font-size: xx-large;
+    font-weight:bold;
+
+    /*min-width: 300px;*/
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.hit-line {
+    border-top: 5px solid lightgray;
+
+    width: 65%;
+    height: 1px;
+    /*margin-left: 50px;*/
+}

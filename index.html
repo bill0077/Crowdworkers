@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CrowdWorkers</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <script src="action.js"></script>
+      <script src="masonry.pkgd.js"></script>
+      <script src="imagesloaded.pkgd.js"></script>
+
+      <script src="jquery.js"></script>
+      <script src="slick.js"></script>
+      <link rel="stylesheet" type="text/css" href="slick.css" >
+
+      <link rel="stylesheet" type="text/css" href="masonry-grid_style.css" >
+      <link rel="stylesheet" type="text/css" href="grid-item_style.css" >
+      <link rel="stylesheet" type="text/css" href="frame_style.css" >
+      <link rel="stylesheet" type="text/css" href="header_style.css" >
+      <link rel="stylesheet" type="text/css" href="nav_style.css" >
+      <link rel="stylesheet" type="text/css" href="footer_style.css" >
+      <link rel="stylesheet" type="text/css" href="hit_style.css" >
+
+      <link rel="stylesheet" type="text/css" href="carousel_style.css" >
+      <link rel="stylesheet" type="text/css" href="carousel-item_style.css" >
+    </head>
+  
+    <body>
+      <div class="wrapper_body">
+        <header>
+          <div class="wrapper_header">
+            <p class="logo-text">CrowdWorkers</p>
+        </header>
+
+        <footer>
+          <div class="wrapper_footer">
+            <!--<p class="footer-text">ⓒ 2022 illetta</p>
+            <p class="footer-text">공모 등록 제의 및 기타 문의: bill0077@postech.ac.kr</p>-->
+            <div>ⓒ 2022 illetta</div>
+            <div>공모 등록 제의 및 기타 문의: bill0077@postech.ac.kr</div>
+          </div>      
+        </footer>
+            
+        <div class="wrapper_holy-grail">
+          <nav>
+          </nav>
+          
+          <aside>
+          </aside>
+
+          <main>
+
+            <div class="wrapper_hit-text">
+              <p class="hit-text">&#167; 최근 인기 공모</p>
+              <div class="hit-line"></div>
+            </div>
+                
+            <!--<div class="grid-line"></div>-->
+
+            <div class="wrapper_carousel">
+              <button type="button" class="button_prev"><img class="button_img" alt="" src="icons/arrow_left.png"/></button>
+              <button type="button" class="button_next"><img class="button_img" alt="" src="icons/arrow_right.png"/></button>
+              <div class="carousel">
+                <div><img class="hit_thumbnail" alt="" src="cartoons_hit\hit-1_img.jpg"></div>
+                <div><img class="hit_thumbnail" alt="" src="cartoons_hit\hit-2_img.png"></div>
+                <div><img class="hit_thumbnail" alt="" src="cartoons_hit\hit-3_img.jpg"></div>
+              </div>
+            </div>
+
+            <script src="carousel_item.js"></script>
+
+            <div class="wrapper_grid-text">
+              <p class="grid-text">&#167; 현재 진행중인 공모</p>
+              <div class="grid-line"></div>
+            </div>
+            <!--<div class="grid-line"></div>-->
+
+            <div class="grid">
+              <div class="grid-sizer"></div>
+
+              <div class="grid-item" id="cartoon_1">
+                <img class="thumbnail" alt="" src="cartoons/1.png" onmouseover="thumbnail_focused('cartoon_1')" onmouseout="thumbnail_focusedout('cartoon_1')" onclick="thumnail_clicked('cartoon_1')">
+                <div class="wrapper_info">
+                  <p class="title">정장 선배 만화</p>
+                  <p class="artist">by 25</p>
+                  <div class="wrapper_hori">
+                    <img class="person_icon" alt="" src="icons/person_icon.png" />
+                    <p class="view">657</p>
+                    <img class="star_icon" alt="" src="icons/star_icon.png" />
+                    <p class="recommend">172</p>
+                  </div>
+                <p class="artist">이 작가 만화 더 보러 가기</p>
+                </div>
+              </div>      
+              
+              
+            </div>
+
+            <script src="masonry_item.js"></script>
+
+          </main>
+        </div>
+      </div>
+    </body>
+</html>

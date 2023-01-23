@@ -1,0 +1,7 @@
+부산시 구강질환개선을 위한 AI학습용 구강데이터 구축과제 크라우드 워커 참가 신청서
+22.12.6 ~ 상시모집
+데이터 수집 분야(건당 10,000원)
+부산지역 거주자
+데이터 가공 분야 중 질환 라벨링 파트 : 치의학 자격 보유(관련 자격증 필요) 
+참여기관 : 부산테크노파크, 부산정보산업진흥원, 국가수리과학연구소
+https://docs.google.com/forms/d/e/1FAIpQLSfB1osuXRZs94pgtwXxjcnOcqweMOq68upE4oqWfX3q1_gpGg/viewform

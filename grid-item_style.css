@@ -1,0 +1,150 @@
+.grid-item { 
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /*order: thick double #e9e9e9;*/
+    /*background-color: aqua;*/
+    border-style: solid;
+    border-color: #1e6b7b;
+    border-width: 1px;
+    border-top-width: 5px;
+    overflow: visible
+}
+
+.thumbnail { 
+    display: inline-block;
+    /*max-width: 100%;*/
+    width: 220px;
+
+    transition: all 0.05s linear;
+
+    /*border-bottom: 4px solid lightgray;
+    border-right: 4px solid lightgray;
+    border-top: 2px solid lightgray;
+    border-left: 2px solid lightgray;*/
+
+    /*-ms-interpolation-mode: bicubic;*/
+}
+
+/*.grid-item:hover{
+    width: 400px;
+    z-index: 1;
+}*/
+
+/*.wrapper_info {
+    background-color:azure;
+}*/
+
+.wrapper_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    max-width: 320px;
+    word-break: keep-all;
+    text-align: right;
+}
+
+.due_note {
+    position:absolute;
+    background-color:orangered;
+    width: 60px;
+    height: 40px;
+    top: -30px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'bmjua';
+    font-size: 20px;
+    color:white;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+
+    margin:10px;
+}
+
+.due {
+    font-size: 12px;
+
+    margin:5px;
+}
+
+.pay {
+    font-size: 12px;
+
+    margin:5px;
+}
+
+.place {
+    font-size: 12px;
+
+    margin:5px;
+}
+
+.conditions {
+    font-size: 12px;
+    margin:5px;
+}
+
+.etc {
+    font-size: 8px;
+    margin:5px;
+}
+
+
+button {
+    margin: 10px;
+}
+
+.w-btn {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    /*font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);*/
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+/*.w-btn-outline {
+    position: relative;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}*/
+
+.w-btn-indigo {
+    background-color:aquamarine;
+    color: #1e6b7b;
+}
+
+.w-btn:hover {
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.w-btn-outline:hover {
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.w-btn:active {
+    transform: scale(1.5);
+}
+
+.w-btn-outline:active {
+    transform: scale(1.5);
+}

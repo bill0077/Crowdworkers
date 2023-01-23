@@ -1,0 +1,140 @@
+.thumbnail { 
+    /*display: inline-block;
+    /*max-width: 100%;
+    width: auto;
+    height: 640px;*/
+
+    width: 420px;
+    height: 840px;
+    object-fit: contain;
+    object-position: center top;
+
+    transition: all 0.05s linear;
+
+    margin: 0px;
+
+    /*border-bottom: 4px solid lightgray;
+    border-right: 4px solid lightgray;
+    border-top: 2px solid lightgray;
+    border-left: 2px solid lightgray;*/
+
+    /*-ms-interpolation-mode: bicubic;*/
+}
+
+.wrapper_img {
+    display: flex;
+    flex-direction: row;
+
+    margin: 50px;
+}
+
+
+.wrapper_view-page {
+    display: flex;
+    flex-direction: row;
+
+    margin: 50px;
+}
+
+.wrapper_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    max-width: 840px;
+    word-break: keep-all;
+    text-align: left;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+
+    margin:15px;
+}
+
+.due {
+    font-size: 15px;
+
+    margin:5px;
+}
+
+.pay {
+    font-size: 15px;
+
+    margin:5px;
+}
+
+.place {
+    font-size: 15px;
+
+    margin:5px;
+}
+
+.conditions {
+    font-size: 15px;
+    margin:5px;
+}
+
+.etc {
+    font-size: 12px;
+    margin:5px;
+}
+
+.data {
+    font-size: 15px
+}
+
+
+button {
+    margin: 10px;
+}
+
+.w-btn {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    /*font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);*/
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+/*.w-btn-outline {
+    position: relative;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}*/
+
+.w-btn-indigo {
+    background-color:aquamarine;
+    color: #1e6b7b;
+}
+
+.w-btn:hover {
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.w-btn-outline:hover {
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.w-btn:active {
+    transform: scale(1.5);
+}
+
+.w-btn-outline:active {
+    transform: scale(1.5);
+}

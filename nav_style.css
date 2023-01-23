@@ -1,0 +1,33 @@
+.subscribed_channel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    /*justify-content: space-between;
+
+    /*margin-top: 100px;
+    padding-top: 0px;*/
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+
+    /*align-content: center;*/
+}
+
+.channel_icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 70%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.channel_name {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}

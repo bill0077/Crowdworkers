@@ -1,0 +1,33 @@
+.wrapper_carousel {
+  display: flex;
+
+  justify-content:center;
+
+  margin-bottom: 40px;
+
+  background-color:#9BC3FF;
+}
+
+.button_prev {
+  order: 1;
+
+  background-color: unset;
+  border: unset;
+}
+
+.button_next {
+  order: 3;
+
+  background-color: unset;
+  border: unset;
+}
+
+.button_img {
+  height: 80px;
+  width: 30px;
+}
+
+.carousel {
+  order: 2;
+  max-width: 970px;
+}

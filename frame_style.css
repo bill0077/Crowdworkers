@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+}
+
+.wrapper_body {
+    display: flex;
+    flex-direction: column;
+
+    overscroll-behavior: none;
+
+    padding-top: 60px;
+
+}
+
+header {
+    order: 1;
+    position: fixed;
+    top: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    /*background-color: white;*/
+    background-color: rgba( 255, 255, 255, 0.5 );
+    z-index: 3;
+}
+
+footer {
+    order: 3;
+}
+
+.wrapper_holy-grail {
+    order: 2;
+    display: flex;
+    justify-content: stretch;
+
+    width: 100%;
+}
+
+nav {
+    order: 1;
+
+    /*width: 180px;
+    height: 100vh;
+/*
+    overflow: scroll;
+    position: fixed;
+    top: 120px;
+    margin-left: 10px;
+
+    overscroll-behavior: none;
+    /*padding: 10px;
+    /*background-color: red;*/
+    /*border-right: 2px solid lightgray;*/
+
+    /*width: 100%;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;*/
+}
+
+nav::-webkit-scrollbar {
+    display: none;
+}
+
+aside {
+    order: 3;
+
+    /*width: 100px;
+    /*background-color: red;*/
+}
+
+main {
+    order: 2;
+    width: 80%;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    /*padding-left: 200px;*/
+}
+
+::-webkit-scrollbar {
+    width: 8px;  /* 스크롤바의 너비 */
+}
+
+::-webkit-scrollbar-thumb {
+    /*height: 30%;*/
+    background: gray;
+    
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
